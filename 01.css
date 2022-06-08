@@ -1,0 +1,63 @@
+
+
+
+
+.iniciar:hover{background-color: rgb(116, 116, 116); color: rgb(246, 246, 246);}
+.pausar:hover{background-color: rgb(129, 129, 129); color: rgb(255, 255, 255);}
+.zerar:hover{background-color: rgb(125, 125, 125); color: rgb(255, 255, 255);}
+
+
+.iniciar{width: 75px; font-family: Arial, Helvetica, sans-serif;}
+.pausar{width: 75px;  font-family: Arial, Helvetica, sans-serif;}
+.zerar{width: 75px; font-family: Arial, Helvetica, sans-serif;}
+.relogio{font-size: 20px; font-family: ; }
+
+body{background-color: rgb(104, 104, 104);}
+
+.conteudo{  background-color: white;  width: 500px; height:auto
+    ; margin-left: auto; margin-right: auto; text-align: center;}
+
+
+.topo input {
+    width: 350px; 
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid  black;
+    outline: none;
+    font-size:1.2rem;
+    height: 10px;
+    padding-top: 15px;
+}
+.topo button { width: 45px; background-color: black; color: white;}
+
+
+#listaTarefas {
+    list-style-type: none;
+    padding:0;
+    margin: 0;
+}
+#listaTarefas li {
+    background-color: rgb(177, 172, 172);
+    padding: 10px;
+    padding-top: 10px;
+    border-radius: 102px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    color: white;
+    line-height:18px;
+    border: 5px rgb(255, 255, 255) solid;
+}
+.btnAcao {
+    background-color: rgb(103, 99, 99);
+    border-radius: 50px;
+    border:1px solid rgba(236, 0, 0, 0)  ;
+    width:38px ;
+    height: 38px;
+    cursor: pointer;
+    color: white;
+}
+
+.btnAcao:hover{ background-color:rgb(145, 143, 143) ;}
+.textoTarefa{font-size: 25px;}

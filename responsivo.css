@@ -1,0 +1,7 @@
+@media only screen and (max-width: 600px) {
+    .conteudo {
+      background-color: rgb(255, 255, 255);
+      width:70% ;
+    }
+    #inputNovaTarefa{width:80% ;}
+  }
